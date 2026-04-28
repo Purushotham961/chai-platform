@@ -76,10 +76,10 @@ img {
 
 .hero-content {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;  /* ✅ THIS FIXES IT */
   gap: 2rem;
   align-items: center;
-  max-width: 760px;
+  max-width: 1080px; /* increase width so both fit */
 }
 
 .eyebrow {
